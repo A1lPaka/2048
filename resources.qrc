@@ -1,0 +1,6 @@
+<!DOCTYPE RCC><RCC version="1.0">
+  <qresource prefix="/">
+    <file>assets/style_2048.qss</file>
+    <file>assets/grip_icon.svg</file>
+  </qresource>
+</RCC>

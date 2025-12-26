@@ -1,0 +1,125 @@
+#CentralWidget {
+    background-color: #FAF8EF;
+}
+#GameBoard {
+    background-color: #BBADA0;
+    border-radius: 18px;
+    margin: 0;
+    padding: 0;
+}
+#GameSquare {
+    background-color: #CDC1B4;
+    border-radius: 12px; 
+    margin: 0;
+    padding: 10px;
+}
+#ScoreFrame {
+    background-color: #BBADA0;
+    border-radius: 13px;
+    margin: 0;
+    padding: 0;
+}
+#ScoreLabel {
+    border: 0;
+    border-radius: 10px;
+    margin: 0;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: #CDC1B4;
+    font-weight: bold;
+    color: #ffffff;
+}
+#OptionalControlButton {
+    background-color: #CDC1B4;
+    border: 4px solid #BBADA0;
+    border-radius: 12px;
+    margin: 0;
+    padding-bottom: 2px;
+    font-family: "Segoe UI Symbol";
+    font-weight: bold;
+    color: #ffffff;
+}
+#OptionalControlButton:hover {
+    background-color: #BBB1A4;
+}
+#OptionalControlButton:pressed {
+    background-color: #AAA194;
+}
+#veil {
+    background-color: rgba(87, 81, 75, 200);
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+}
+#mainLabel{
+    border: 0;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #ffffff;
+}
+#menuLabel{
+    border: 0;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #ffffff;
+}
+#menuButton, #EndGameContent_Button {
+    border: 4px solid #AC9F93;
+    border-radius: 10px;
+    margin: 0;
+    background-color: #BDB2A6;
+    font-weight: bold;
+    color: #ffffff;
+}
+#menuButton:focus:pressed, #EndGameContent_Button:focus:pressed {
+    background-color: #9C9488;
+}
+#menuButton:focus, #EndGameContent_Button:focus {
+    background-color: #ACA397;
+    outline: none;
+}
+#MenuSpinButton {
+    border: 4px solid #AC9F93;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    background-color: #BDB2A6;
+}
+#MenuSpinButton:focus {
+    background-color: #ACA397;
+}
+#MenuSpinButton_NameLabel, #MenuSpinButton_ValueLabel {
+    border: 0;
+    background-color: transparent;
+    margin: 0;
+    font-weight: bold;
+    color: #ffffff;
+}
+#MenuSpinButton_MinButton, #MenuSpinButton_MaxButton{
+    border: 0;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #ffffff;
+}
+#MenuSpinButton_MinButton:hover, #MenuSpinButton_MaxButton:hover{
+    color: #e0e0e0;
+}
+#MenuSpinButton_MinButton:pressed, #MenuSpinButton_MaxButton:pressed{
+    color: #c0c0c0;
+}
+#EndGameContent_mainLabel {
+    border: 0;
+    background-color: transparent;
+    margin: 0;
+    font-weight: bold;
+    color: #ffffff;
+}
+QSizeGrip {
+    image: url(:/assets/grip_icon.svg);
+}
